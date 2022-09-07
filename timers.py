@@ -2,7 +2,8 @@ import pygame, sys
 
 #Setting up Pygame
 pygame.init()
-screen = pygame.display.set_mode((568,320)) 
+screen = pygame.display.set_mode((720,405)) 
+pygame.display.set_caption('Timers')
 clock = pygame.time.Clock()
 
 current_time = 0
